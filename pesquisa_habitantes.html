@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+			
+			var num, entrevistado, salario, nFilhos, mediaSalario, somaSalario, maiorSalario, mediaFilhos, somaFilho, maiorSalario, percentual, salarioMil;
+
+			maiorSalario = 0;
+			salario = 0;
+			somaSalario = 0;
+			somaFilho = 0;
+			salarioMil = parseFloat(1000);
+
+			
+				for(num = 0; num <= 2; num++){
+
+					entrevistado = prompt("Digite seu nome:");
+
+					salario = parseFloat(prompt("Digite o valor do seu salário: "));
+					somaSalario += parseFloat(salario); 
+
+					nFilhos = parseInt(prompt("Digite o número de filhos que possui:"));
+					somaFilho += parseInt(nFilhos);
+
+					if(salario > maiorSalario){
+						maiorSalario = salario;
+					}
+
+					if(salario <= salarioMil) {
+						salarioMil = salario;
+					    percentual = salario + ((salario * entrevistado) / 100);
+					}
+
+ 				}
+
+ 				mediaSalario = (somaSalario / 3);
+
+ 				mediaFilhos = (somaFilho / 3);
+
+
+				console.log("Média de salário da população: " +mediaSalario);
+ 				console.log("Média do número de filhos:" +mediaFilhos);
+ 				console.log("Maior salário dos habitantes: " +maiorSalario);
+ 				console.log("Percentual de pessoas com salário menor que R$ 1.000,00: " + percentual);
+   
+				
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

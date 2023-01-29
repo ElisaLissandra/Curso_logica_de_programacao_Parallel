@@ -1,0 +1,14 @@
+<script>
+var nota, num, soma = 0, media;
+
+for(num = 0; num <= 2; num++){
+ nota = parseFloat(prompt("Digite sua nota"));
+ soma += parseFloat(nota);
+}
+
+media = (soma / 3);
+
+alert(media);
+
+
+</script>

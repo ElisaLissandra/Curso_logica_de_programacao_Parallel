@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+			var codigo, num, preco, maiorPreco, somaPrecos, mediaPreco;
+
+			somaPrecos = 0;
+			preco = 0;
+			maiorPreco = 0;
+			
+				for(num = 0; num <= 14; num++){
+
+					preco = parseFloat(prompt("Digite o preço o produto"));
+					somaPrecos += parseFloat(preco);
+
+					if(preco > maiorPreco){
+						maiorPreco = preco;
+					}
+			
+			    }
+
+			    mediaPreco = (somaPrecos / 15);
+
+			console.log("O mais caro custa: " + maiorPreco);
+
+			console.log("A média de preços dos 15 produtos são: " + mediaPreco);
+				
+		</script>
+			
+	</head>
+
+	<body>
+
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+		var mulher1, mulher2, homem1, homem2, soma, produto;
+
+		
+		mulher1 = parseInt(prompt("Digite a idade da primeira mulher:"));
+		mulher2 = parseInt(prompt("Digite a idade da segunda mulher:"));
+
+		homem1 = parseInt(prompt("Digite a idade do primeiro homem:"));
+		homem2 = parseInt(prompt("Digite a idade do segundo homem:"));
+		
+
+		if(mulher1 < mulher2){
+        	console.log("A mais nova é a primeira: " +mulher1 + " anos");
+        	soma = (mulher1 + homem1)
+     		console.log("soma das idades do homem mais velho com a mulher mais nova: " + soma);
+
+		}else if(mulher2 < mulher1) {
+			console.log("A mais nova é a segunda: " +mulher2 + " anos");
+			soma = (mulher2 + homem2)
+			console.log("soma das idades do homem mais velho com a mulher mais nova: " + soma);
+		}
+
+		 if(mulher1 > mulher2){
+        	console.log("A mais velha é a primeira: " +mulher1 + " anos");
+        	produto = (mulher1 * homem1)
+     		console.log("O produto das idades do homem mais novo com a mulher mais velha: " + produto);
+
+		}else if(mulher2 > mulher1) {
+			console.log("O produto das idades do homem mais novo com a mulher mais velha: " + produto);
+			produto = (mulher2 * homem2)
+			console.log("A mais velha é a segunda: " +mulher2 + " anos");
+		
+		}
+
+		if(homem1 > homem2){
+			console.log("O homem mais velho é o primeiro: " +homem1  + " anos");
+		} else if(homem2 > homem1){
+			console.log("O homem mais velho é o segundo: " +homem2  + " anos");
+		}
+
+
+		 if(homem1 < homem2){
+			console.log("O homem mais novo é o primeiro: " +homem1  + " anos");
+		} else if(homem2 < homem1){
+			console.log("O homem mais novo é o segundo: " +homem2  + " anos");
+		}
+
+						
+		</script>
+			
+	</head>
+
+	<body>
+
+	</body>
+</html>

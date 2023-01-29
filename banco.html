@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+			var opcoes, saldo, consultaSaldo, deposito, valorDepositado, valorSacado, saque;
+
+			    opcoes = prompt('(A) consulta saldo \n (B) saque \n (C) deposito');
+			   	
+				deposito = parseFloat(valorDepositado);
+
+				valorDepositado = parseFloat(saldo);
+
+				valorSacado = deposito - saque;
+
+			
+			switch(opcoes) {
+				case 'A':
+					console.log('Seu valor inicial é: R$ ' +saldo);
+				break;
+
+				case 'C':
+					deposito = parseFloat(prompt("Digite o valor do seu deposito:"));
+
+					console.log('O seu deposito no valor de R$' + deposito +  ',00 foi efetuado com sucesso');
+				break;
+
+				case 'B':
+				 saque =  parseFloat(prompt("Digite o valor que deseja sacar"))
+					if(saque > deposito){
+					 	console.log('saldo insuficiente')
+					} 
+				break;
+			}
+			
+
+				 			
+
+
+
+			
+				
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

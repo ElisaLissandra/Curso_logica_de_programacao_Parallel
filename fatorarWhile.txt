@@ -1,0 +1,11 @@
+var resposta, numero, fatorial;
+valor = 1;
+fatorial = 1;
+numero = parseFloat(prompt("Digite um numero"));
+
+while(valor <= numero){
+	fatorial = fatorial + (fatorial * (numero - 1));
+    numero--;
+}
+
+alert(fatorial) 

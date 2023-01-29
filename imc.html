@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+			var peso, altura, calculoAltura, calculoImc;
+			peso =  parseFloat(prompt("Digite seu peso"));
+			altura = parseInt(prompt("Digite sua altura"));
+
+			calculoAltura = (altura/100);
+
+			calculoImc = peso/(calculoAltura * calculoAltura);
+
+			if(calculoImc < 20) {
+				
+				alert("Abaixo do peso");
+
+			}else if((calculoImc >= 20) && (calculoImc < 30)) {
+
+				alert("Peso Normal");
+
+			}else if(calculoImc > 30) {
+
+				alert("Excesso de peso");
+			}
+			
+				
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

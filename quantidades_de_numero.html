@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<script>
+
+			
+			var  num, qNumeros, maiorNumero, mediaNumeros, somaNumeros;
+
+			maiorNumero = 0;
+			qNumeros = 0;
+			somaNumeros = 0;
+
+			
+				for(num = 0; num <= 19; num++){
+
+					qNumeros = parseFloat(prompt("Digite seus numeros"));
+					somaNumeros += parseFloat(qNumeros);
+
+					if(qNumeros > maiorNumero){
+						maiorNumero = qNumeros;
+
+					}
+
+				}
+
+				mediaNumeros = (somaNumeros / 20);
+
+				console.log("O maior numero: " +maiorNumero);
+				console.log("A média dos numeros: " +mediaNumeros)
+
+			
+			   
+
+			   
+				
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<script>
+var candidato; 
+
+ candidato = parseInt(prompt("Digite o numero do seu candidato"));
+ 
+ if((candidato ==  13) || (candidato == 43) || (candidato ==  45) || (candidato ==  50)) {
+ 	alert("O candidado escolhido foi " + candidato);
+    	confirm("Deseja confirma o voto?");
+	
+ }else if((candidato !=  13) || (candidato != 43) || (candidato !=  45) || (candidato !=  50)) {
+     
+     confirm("Deseja votar nulo?");
+}
+
+if(candidato) {
+  alert("Voto confirmado com sucesso"); 
+} else {
+  alert("Voto cancelado");
+}
+
+</script>
+
+
+</html>
+</html>

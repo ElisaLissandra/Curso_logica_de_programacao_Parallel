@@ -1,0 +1,27 @@
+<script>
+var idade, num, maisVelho, nome, pessoaMaisVelha;
+idade = 0;
+maisVelho = 0;
+parseInt(idade);
+
+for(num = 0; num <= 2; num++){
+ nome = prompt("Digite seu nome");
+ idade = parseInt(prompt("Digite sua idade"));
+
+ if(idade > maisVelho){
+   maisVelho = idade;
+   pessoaMaisVelha = nome;
+   
+ }
+}
+
+alert(pessoaMaisVelha);
+
+</script>
+
+
+
+
+
+
+

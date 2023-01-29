@@ -1,0 +1,11 @@
+<script>
+var numero = 0 , somaNumero = -1;
+while(numero >= 0){
+ numero = parseInt(prompt("Digite numero"));
+ somaNumero++;
+}
+
+alert(somaNumero);
+
+
+</script>

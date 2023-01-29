@@ -1,0 +1,58 @@
+var escolha, opcoes, valor;
+opcoes = '(A) consulta saldo, (B) saque, (C) deposito';
+alert(opcoes)
+
+escolha = parseFloat(prompt("Digite o que deseja fazer"));
+valor = 0;
+
+if(escolha === A){
+  A = valor;
+}
+
+alert(valor);
+
+
+
+---------------------------------------------------------------------
+
+
+<script>
+var escolha, opcoes, valor;
+opcoes = '(A) consulta saldo, (B) saque, (C) deposito';
+alert(opcoes);
+valor = 0;
+
+escolha = parseFloat(prompt("Digite o que deseja fazer"));
+
+if(escolha == 'A'){
+  valor = 0;
+}
+
+alert(valor);
+
+</script>
+----------------------------------------------------------------
+<script>
+
+var escolha, opcoes, valor, deposito, saque;
+opcoes = '(A) consulta saldo \n (B) saque \n (C) deposito';
+alert(opcoes);
+valor = 0;
+
+escolha = parseFloat(prompt("Digite o que deseja fazer"));
+
+if(escolha == 'A'){
+  valor = 0;
+}
+
+if(escolha == 'C'){
+	deposito = 20
+    valor += deposito
+}
+if(escolha =='B'){
+	saque = 20;
+    valor -= saque;
+
+}
+alert (valor);
+
